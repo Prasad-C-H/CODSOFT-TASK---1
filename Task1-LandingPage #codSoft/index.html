@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e1cc8fbd5b.js" crossorigin="anonymous" defer></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="logo">
+        <span>Your</span>Brand
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Revolutionize Your Business</h1>
+          <p>Experience the power of our cutting-edge solutions.</p>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://img.freepik.com/free-vector/stem-activities-abstract-concept-illustration_335657-4385.jpg?t=st=1714191146~exp=1714194746~hmac=2ba62e0c2191acd0e44ddda2ddd0a43884d7933306f250b853fef60b0956f151&w=740" alt="Hero Image">
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <img src="feature1.jpg" alt="Feature 1">
+            <h3>Feature 1</h3>
+            <p>Description of Feature 1 goes here.</p>
+          </div>
+          <div class="feature-card">
+            <img src="feature1.jpg" alt="Feature 1">
+            <h3>Feature 2</h3>
+            <p>Description of Feature 2 goes here.</p>
+          </div>
+          <div class="feature-card">
+            <img src="feature1.jpg" alt="Feature 1">
+            <h3>Feature 3</h3>
+            <p>Description of Feature 3 goes here.</p>
+          </div>
+          <!-- Add more feature cards here -->
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3>Basic</h3>
+            <p class="price">$9.99/month</p>
+            <ul>
+              <li>Feature 1</li>
+              <li>Feature 2</li>
+              <li>Feature 3</li>
+            </ul>
+            <a href="#" class="btn">Get Started</a>
+          </div>
+          <div class="pricing-card">
+            <h3>Basic</h3>
+            <p class="price">$9.99/month</p>
+            <ul>
+              <li>Feature 1</li>
+              <li>Feature 2</li>
+              <li>Feature 3</li>
+            </ul>
+            <a href="#" class="btn">Get Started</a>
+          </div>
+          <div class="pricing-card">
+            <h3>Basic</h3>
+            <p class="price">$9.99/month</p>
+            <ul>
+              <li>Feature 1</li>
+              <li>Feature 2</li>
+              <li>Feature 3</li>
+            </ul>
+            <a href="#" class="btn">Get Started</a>
+          </div>
+          <!-- Add more pricing cards here -->
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <div class="contact-info-image-container">
+            <img src="https://img.freepik.com/free-vector/contact-us-concept-landing-page_52683-12860.jpg?t=st=1714141262~exp=1714144862~hmac=576fa47d8959f64811c5dfb64e85aca466b3c059a1501b80ca79e1421945f79c&w=996" alt="Contact Image">
+          </div> 
+            <div class="contact-links">
+              <a href="#" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" aria-label="Facebook">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+              <label for="name"></label>
+              <input type="text" id="name" placeholder="Your Name">
+              <label for="email"></label>
+              <input type="email" id="email" placeholder="Your Email">
+              <label for="phone"></label>
+              <input type="tel" id="phone" placeholder="Your Phone">
+              <label for="message"></label>
+              <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Your Brand. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
